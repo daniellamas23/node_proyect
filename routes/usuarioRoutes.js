@@ -1,5 +1,5 @@
 import express from 'express'
-import { formularioLogin , formularioRegister , formForgotpwd , register  } from '../controlers/usuarioControler.js'
+import { formularioLogin , formularioRegister , formForgotpwd , register  } from '../controllers/usuarioControler.js'
 
 
 
