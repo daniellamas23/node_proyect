@@ -1,0 +1,38 @@
+{
+  "name": "proyectoinmobiliaria",
+  "version": "1.0.0",
+  "description": "mi primer proyecto NodeJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "css": "postcss public/css/tailwind.css -o public/css/app.css --watch"
+  },
+  "keywords": [
+    "MVC",
+    "Sequalize",
+    "Express",
+    "NodeJS",
+    "TailwindCSS",
+    "MySQL"
+  ],
+  "author": "Daniel Lamas",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^6.15.0",
+    "mysql2": "^3.2.0",
+    "pug": "^3.0.2",
+    "sequelize": "^6.29.3"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "nodemon": "^2.0.21",
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
+    "tailwindcss": "^3.2.7"
+  }
+}
